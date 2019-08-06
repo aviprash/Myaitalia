@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.myaitalia">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".util.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/new_logo_circle_128px"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@drawable/new_logo_circle_128px"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".modules.ForgotPassActivity"></activity>
+        <activity android:name=".modules.PaytmCheckoutActivity"></activity>
+        <activity
+            android:name=".modules.SplashActivity"
+            android:theme="@style/NoActionBarTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".modules.ViewOrderActivity" />
+        <activity android:name=".modules.CartActivity" />
+        <activity android:name=".modules.ProductsActivity"></activity>
+        <activity
+            android:name=".modules.PlanActivity"
+            android:theme="@style/AppTheme"></activity>
+        <activity android:name=".modules.UserInfoActivity" />
+        <activity
+            android:name=".modules.SignUpConfirmationActivity"
+            android:theme="@style/NoActionBarTheme" />
+        <activity
+            android:name=".modules.SignUpActivty"
+            android:theme="@style/NoActionBarTheme" />
+        <activity
+            android:name=".modules.SignInActivity"
+            android:theme="@style/NoActionBarTheme" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

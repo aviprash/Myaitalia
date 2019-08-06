@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Myaitalia</string>
+    <string name="forgot_password"><u><b>Forgot Password</b></u></string>
+    <string name="sign_up_for_myaitalia"><b><u>Sign Up</u></b> for MYAITALIA</string>
+    <string name="thank_you">THANK YOU\n FOR REGISTERING WITH\n <b><font color="#e53935">MYAITALIA</font></b></string>
+    <string name="info_text">LET ME KNOW MORE\n<b>ABOUT YOU</b></string>
+    <string name="info_title">Note</string>
+    <string name="info_message">Please consult the Doctor at below address:\nVia Vasco De Gama, N.40, 65126 PESCARA PE, ITALY \nMAIL ID:<b>pasunuriaviprash@gmail.com</b> \nMobile number:<b>+393498456308</b>\nAvailable hours:<b>9AM TO 1PM</b></string>
+    <string name="info_about_normal">Ease Your Life With Available Foods And Meal Plans We Will Take Care Of Your Daily Meal Plans And As Well As Fitness Routine In Case You Are Missing On.</string>
+    <string name="info_about_elite">Ease Your Life With Available Premium Foods And Elite Meal Plans We Will Take Care Of Your Daily Elite Meal Plans And As Well As Premium Fitness Routine In Case You Are Missing On.</string>
+    <string name="onboard_page1">Explore The Aura Of The Food And Diet While Being Healthy</string>
+    <string name="onboard_page2">We Believe In \"With Great Meal Plans Comes Less Responsibility\" If You Are Either On A Normal Plan Or An Elite Plan.</string>
+    <string name="onboard_page3">We Are Here To Take Care Of You \n <b>AI Powered Watch Coming Soon...!!</b> </string>
+
+    <string-array name="body_type">
+        <item>THIN</item>
+        <item>NORMAL</item>
+        <item>ATHLETE</item>
+        <item>FAT AND CUTE</item>
+        <item>FAT</item>
+    </string-array>
+    <string-array name="consumption">
+        <item>LOW</item>
+        <item>MEDIUM</item>
+        <item>HIGH</item>
+    </string-array>
+
+</resources>
